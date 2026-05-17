@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Intel Feed | Declassified Archive</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container Card */
+        .archive-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            max-width: 450px;
+            width: 100%;
+            padding: 30px 25px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Header / Logo Area */
+        .brand-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+        .eye-icon {
+            width: 24px;
+            height: 24px;
+            fill: #da3637;
+        }
+
+        .brand-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #8b949e;
+        }
+
+        /* Typography */
+        h1 {
+            color: #f0f6fc;
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Security/Verification Elements */
+        .verification-box {
+            background-color: rgba(218, 54, 55, 0.1);
+            border: 1px dashed #da3637;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: #f0f6fc;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #da3637;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(218, 54, 55, 0.7);
+            animation: pulse 1.6s infinite;
+        }
+
+        @keyframes pulse {
+            0 {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(218, 54, 55, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 8px rgba(218, 54, 55, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(218, 54, 55, 0);
+            }
+        }
+
+        /* High-Converting CTA Button */
+        .cta-button {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #da3637 0%, #a32425 100%);
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            padding: 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s ease, filter 0.2s ease;
+            box-shadow: 0 4px 15px rgba(218, 54, 55, 0.3);
+        }
+
+        .cta-button:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .cta-button:active {
+            transform: translateY(1px);
+        }
+
+        /* Footer Info */
+        .footer-note {
+            margin-top: 25px;
+            font-size: 0.75rem;
+            color: #484f58;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="archive-card">
+        <div class="brand-header">
+            <svg class="eye-icon" viewBox="0 0 24 24">
+                <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+            </svg>
+            <div class="brand-name">Intel Vault Curation</div>
+        </div>
+
+        <h1>The Snowden Archive:<br>Declassified Video Timeline</h1>
+        
+        <p>The system has logged your referral request from Facebook. Verify your secure location parameters below to view the restricted document logs and uncut whistle-blower history briefings.</p>
+
+        <div class="verification-box">
+            <div class="pulse-dot"></div>
+            <span>SECURE ACCESS PORTAL ACTIVE</span>
+        </div>
+
+        <a href="https://tinyurl.com/24vvt9k9" class="cta-button">Verify Access & Unlock Video</a>
+
+        <div class="footer-note">
+            SECURE LINK COMPLIANT • ID: #8839-X9
+        </div>
+    </div>
+
+</body>
+</html>
